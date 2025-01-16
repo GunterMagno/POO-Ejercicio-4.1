@@ -14,7 +14,7 @@ class Rectangulo(val base:Double,val altura:Double){
 
     fun calcularArea(): Double = (base * altura) * 2
 
-    override fun equals(other: Any?): Boolean {
+    /*override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (other !is Rectangulo) return false
 
@@ -30,7 +30,7 @@ class Rectangulo(val base:Double,val altura:Double){
     override fun toString(): String {
         return "Rectangulo(base= $base, altura= $altura, perimetro= $perimetro, area= $area)"
     }
-}
+} */ 
 
 
 fun main() {
